@@ -22,12 +22,22 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
+  // "include": [
+  //   "src/**/*.ts",
+  //   "src/**/*.d.ts",
+  //   "src/**/*.tsx",
+  //   "src/**/*.vue",
+  //   // "vue-shims.d.ts",
+  //   // ".eslintrc.cjs",
+  //   "vite.config.ts"
+  // ],
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "vue-shims.d.ts"
+    ".eslintrc.cjs",
+    "vite.config.ts"
   ],
   "references": [
     {
